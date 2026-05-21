@@ -4,11 +4,11 @@ def strom_berechnen(leistung, spannung):
 
 # Funktion 2
 def spannungsfall(strom, widerstand):
-    # Todo
+    spannungsfall = strom * widerstand
 
 # Funktion 3
 def verlustleistung(strom, widerstand):
-    # TODO
+    verlustleistung = strom%2 * widerstand
 
 
 leistung = 2000   # Watt
